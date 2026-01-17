@@ -1,1 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gem Chase - Buy Raw. Grade Smart.</title>
+    <style>
+        :root {
+            --bg: #000000;
+            --card-bg: #121212;
+            --text: #FFFFFF;
+            --accent: #F5A623;     /* Orange-yellow for buttons, profit, highlights */
+            --positive: #00FF9D;   /* Teal-green for ROI, gem rate, trends */
+            --gray: #AAAAAA;
+            --border: #333333;
+        }
 
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.5;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 20px 20px;
+        }
+
+        .logo {
+            max-width: 180px;
+            height: auto;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 20px 60px;
+        }
+
+        .hero {
+            text-align: center;
+            margin: 20px 0 60px;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            font-weight: bold;
+            margin-bottom: 12px;
+            color: var(--accent);
+        }
+
+        .hero p {
+            font-size: 1.3rem;
+            color: var(--gray);
+            margin-bottom: 30px;
+        }
+
+        .coming-soon {
+            font-size: 1.4rem;
+            color: var(--positive);
+            margin: 20px 0;
+        }
+
+        .content-section {
+            margin: 60px 0;
+        }
+
+        .content-section h2 {
+            font-size: 2.2rem;
+            color: var(--accent);
+            margin-bottom: 20px;
+        }
+
+        .content-section p {
+            font-size: 1.2rem;
+            color: #DDDDDD;
+            margin-bottom: 20px;
+        }
+
+        .teaser-list {
+            list-style: none;
+        }
+
+        .teaser-list li {
+            font-size: 1.2rem;
+            margin: 16px 0;
+            padding-left: 30px;
+            position: relative;
+        }
+
+        .teaser-list li::before {
+            content: "•";
+            color: var(--accent);
+            position: absolute;
+            left: 0;
+            font-size: 1.8rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            background: #0A0A0A;
+            border-top: 1px solid var(--border);
+        }
+
+        footer a {
+            color: var(--accent);
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.1rem;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        .disclaimer {
+            margin-top: 30px;
+            font-size: 0.9rem;
+            color: #888888;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.4rem;
+            }
+            .content-section h2 {
+                font-size: 1.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Gem Chase Logo" class="logo">
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Buy Raw. Grade Smart.</h1>
+            <p class="coming-soon">(Coming soon to the App Store)</p>
+        </section>
+
+        <section class="content-section">
+            <h2>Data-Driven Grading Intelligence</h2>
+            <p>Gem Chase provides a structured look at the sports card market for collectors who buy raw and sell graded. By processing price gaps, gem rates, and seasonal market trends, the app identifies cards with significant spreads between raw and PSA-graded values. Our goal is to replace "gut feel" with a systematic approach, using an algorithm that weighs liquidity and market timing to help you organize your next grading submission.</p>
+        </section>
+
+        <section class="content-section">
+            <h2>Analytical Tools for Flippers</h2>
+            <p>Built for speed and accuracy, Gem Chase includes a net-return simulator that factors in marketplace fees, grading costs, and time to grade. Beyond the numbers, the platform offers specialized views like "Mint Yields" for cards that show profit potential at a PSA 9 grade, and "Top Picks" for cards with high market velocity. It is a streamlined dashboard designed to help you track price movement and manage your inventory with professional-grade data.</p>
+        </section>
+
+        <section class="content-section">
+            <h2>Website Teaser (The "Quick Look")</h2>
+            <ul class="teaser-list">
+                <li>Price Gap Analysis: Compare raw vs. graded values across thousands of cards.</li>
+                <li>Fee-Adjusted Math: Built-in calculators for eBay fees and PSA costs.</li>
+                <li>Market Timing: Rankings adjusted for sports seasonality and volume.</li>
+                <li>Risk Management: Identify "Mint Yields" plays with lower grading hurdles.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <nav>
+            <a href="mailto:info@gemchase.com">info@gemchase.com</a>
+        </nav>
+        <p class="disclaimer">Disclaimer: Card values, market trends, and grading outcomes can change at any time. Gem Chase provides informational tools only and is not financial or investment advice. Always do your own research before making decisions.</p>
+    </footer>
+</body>
+</html>
