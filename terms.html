@@ -63,6 +63,17 @@
             margin-bottom: 20px;
         }
 
+        ul {
+            margin: 16px 0 24px 30px;
+            list-style-type: disc;
+        }
+
+        ul li {
+            font-size: 1.15rem;
+            color: #DDDDDD;
+            margin-bottom: 12px;
+        }
+
         .last-updated {
             font-size: 1.1rem;
             color: var(--gray);
@@ -99,6 +110,11 @@
             color: #888888;
         }
 
+        a {
+            color: var(--accent);
+            text-decoration: underline;
+        }
+
         @media (max-width: 768px) {
             h1 {
                 font-size: 2.2rem;
@@ -116,46 +132,76 @@
 
     <main>
         <h1>GEM CHASE – TERMS OF SERVICE</h1>
-        <p class="last-updated">Last Updated: January 2026</p>
+        <p class="last-updated">Last Updated: January 17, 2026</p>
 
         <div class="section">
             <h2>1. Acceptance of Terms</h2>
-            <p>By accessing or using the Gem Chase mobile application ("the App"), you agree to be bound by these Terms of Service. If you do not agree, do not use the App.</p>
+            <p>By accessing or using the Gem Chase mobile application ("the App"), you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use the App.</p>
         </div>
 
         <div class="section">
             <h2>2. Description of Service</h2>
-            <p>Gem Chase provides data analytics and market insights for the trading card industry. All rankings, including “Gem Chase” and "Mint Yield" lists, are generated via proprietary algorithms based on historical market data.</p>
+            <p>Gem Chase provides data analytics and market insights for the trading card industry. All lists and rankings, including "Gem Chase" and "Mint Yield," are generated via proprietary algorithms based on historical market data. We reserve the right to update, modify, or remove data and features at any time to maintain the quality of the service.</p>
         </div>
 
         <div class="section">
-            <h2>3. No Financial Advice</h2>
-            <p>Gem Chase is a data tool provided for informational purposes only. We are not financial advisors. All profit simulations, and data points are estimates and do not constitute recommendations to buy or sell. Trading cards are volatile assets, and all purchase or grading decisions are made at the user’s sole risk.</p>
+            <h2>3. Not Financial Advice</h2>
+            <p>Gem Chase is a data tool provided for informational purposes only.</p>
+            <ul>
+                <li>We are not financial advisors, investment advisors, or professional card graders.</li>
+                <li>All profit simulations, "Whale Scores," and data points are estimates based on past performance and do not constitute recommendations to buy, sell, or grade any specific asset.</li>
+                <li>Trading cards are volatile assets. All financial decisions are made at your own risk, and Gem Chase is not responsible for any losses incurred.</li>
+            </ul>
         </div>
 
         <div class="section">
             <h2>4. Subscriptions & Payments</h2>
-            <p>Premium features ("Pro Subscription") are billed through the Apple App Store. All payment processing, renewals, and cancellations are handled directly by Apple. Gem Chase does not collect or store your credit card or billing information.</p>
+            <p>Gem Chase offers premium features via a "Pro Subscription."</p>
+            <ul>
+                <li>Service Provider: We use RevenueCat to manage subscription logic and entitlement tracking.</li>
+                <li>Billing: All payments are processed through the Apple App Store. By purchasing a subscription, you agree to Apple’s standard billing terms.</li>
+                <li>Auto-Renewal: Subscriptions automatically renew unless auto-renew is turned off at least 24 hours before the end of the current period.</li>
+                <li>Cancellations: You can manage or cancel your subscription at any time through your Apple ID Account Settings.</li>
+                <li>Refunds: Because all payments are handled by Apple, Gem Chase cannot personally issue refunds. All refund requests must be directed to Apple Support.</li>
+            </ul>
         </div>
 
         <div class="section">
             <h2>5. Intellectual Property</h2>
-            <p>Any algorithms, the App interface, and all original content are the exclusive property of Gem Chase. Users may not scrape, copy, or redistribute the data for commercial purposes without written consent.</p>
+            <p>The App’s interface, proprietary grading algorithms, and original content are the exclusive property of Gem Chase. You are granted a limited, non-exclusive license to use the data for personal, non-commercial use. Scraping, copying, or redistributing our data for commercial purposes is strictly prohibited.</p>
         </div>
 
         <div class="section">
             <h2>6. Limitation of Liability</h2>
-            <p>To the maximum extent permitted by law, Gem Chase shall not be liable for any financial losses, grading outcomes, or data inaccuracies. We provide the service "as-is" without any warranties of any kind.</p>
+            <p>To the maximum extent permitted by law, Gem Chase (and its third-party data providers) shall not be liable for:</p>
+            <ul>
+                <li>Any financial losses resulting from market fluctuations.</li>
+                <li>Inaccuracies in the data.</li>
+                <li>Physical damage to cards during the grading process at third-party companies (e.g., PSA).</li>
+                <li>Any direct, indirect, or incidental damages arising from your use of the App.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>7. Disclaimer of Warranties</h2>
+            <p>The App is provided on an "as-is" and "as-available" basis. We make no warranties, expressed or implied, regarding the accuracy or completeness of the data or the continuous availability of the service.</p>
+        </div>
+
+        <div class="section">
+            <h2>8. Changes to Terms</h2>
+            <p>We reserve the right to modify these Terms at any time. Your continued use of the App following the posting of changes constitutes your acceptance of such changes.</p>
+        </div>
+
+        <div class="section">
+            <h2>9. Contact Us</h2>
+            <p>If you have any questions regarding these Terms, please contact us at <a href="mailto:info@gemchase.com">info@gemchase.com</a>.</p>
         </div>
 
         <a href="index.html" class="back-link">← Back to Home</a>
     </main>
 
     <footer>
-        <nav>
-           <a href="terms.html">Terms of Service</a> | <a href="privacy.html">Privacy Policy</a> | <a href="mailto:info@gemchase.com">info@gemchase.com</a>
-        </nav>
-        <p class="disclaimer">Disclaimer: Card values, market trends, and grading outcomes can change at any time. Gem Chase provides informational tools only and is not financial or investment advice. Always do your own research before making decisions.</p>
+        <p>Contact: <a href="mailto:info@gemchase.com" style="color: var(--accent);">info@gemchase.com</a></p>
     </footer>
 </body>
 </html>
