@@ -958,5 +958,25 @@
         "Estimated Return Date": "July 2026",
         "Season": "Off-Season",
         "Image URL": "https://d1htnxwo4o0jhw.cloudfront.net/spec/12967097/p7aaeeuPSEeNxiedRNFzmA.jpg"
-    }
+    },
+    {
+    "Card Name": "Aaron Judge 2013 Bowman Draft #BDPP19",
+    "Sport": "Baseball",
+    "Score": 56.7,
+    "Raw Average Price": 280.0,
+    "PSA 9 Average Price": 330.0,
+    "PSA 10 Average Price": 1074.0,
+    "Raw Vol": 0,
+    "PSA 10 Vol": 0,
+    "PSA 10 Pop": 1681,
+    "PSA 9 Profit": -29.99,
+    "PSA 10 Profit": 714.01,
+    "Gem Rate (%)": "39%",
+    "Optimal Tier": "Regular",
+    "Days to Grade": 30,
+    "Cost to Grade": 79.99,
+    "Estimated Return Date": "May 2026",
+    "Season": "Midseason",
+    "Image URL": "https://d1htnxwo4o0jhw.cloudfront.net/spec/2048541/Nqqts-zyEUq_rqzhw0C7dg.jpg"
+}
 ]
